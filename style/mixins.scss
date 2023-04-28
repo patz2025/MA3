@@ -1,0 +1,82 @@
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+}
+
+
+
+
+
+/*****************************************************************************************
+                                  Navigation Bar
+**************************************************************************************** */
+@media only screen and (min-width: 769px) {
+
+/* logo/name */
+h4 {
+    color: rgb(236, 199, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+/* options */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(6, 5, 5);
+  }
+  
+   li {
+    text-align: center;
+    display: inline-block;
+  } 
+  
+  li a, .dropbtn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: grid;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #c02e2e;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*****************************************************************************************
+                               End of Navigation Bar
+**************************************************************************************** */
+
+}
